@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Funnel Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.con {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+.ai {
+    align-items: center;
+}
+
+.gap {
+    gap: 18px;
+}
+
+.py {
+    padding: 15px 0;
+}
+
+.top {
+    background: #DDF4CD;
+}
+
+.logo {
+    width: 600px;
+}
+
+.qr img {
+    width: 80px;
+}
+
+nav {
+    background: #024FA1;
+}
+
+nav a {
+    color: white;
+}
+
+.button {
+    background: #02A10E;
+}
+
+.green {
+    background: #02A10E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.brown {
+    background: #B55B00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gap1 {
+    gap: 30px;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.btn {
+    background: #024FA1;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.box {
+    text-align: center;
+}
+
+.con h3 {
+    color: blue;
+}
+
+.con h2 {
+    color: #02A10E;
+}
+
+.diagram img {
+    width: 750px;
+    margin: auto;
+
+}
+
+.diagram {
+    text-align: center;
+}
+
+.products img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.sbox {
+    text-align: center;
+    box-shadow: 2px 0px 13px 4px #aaa8a8;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+.quote {
+    margin: 50px 0;
+    color: white;
+    padding: 70px 0;
+    background-image: url(https://skbbl.com.np/frontend/images/greenbg.jpg);
+}
+
+.quote-inner {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.w-100 {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    background: #024FA1;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.last {
+    display: flex;
+
+}
+
+.footerbox h4 {
+    padding: 10px 0;
+}
+
+.copyright ul li {
+    width: 40px;
+    height: 40px;
+    background: #302f2f;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
